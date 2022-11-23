@@ -5,8 +5,8 @@ Analyzing Amazon review data for products in the *Watches* category to determine
 Data is collected from S3 and processed using Spark. The total number of Vine and Non-Vine reviews are counted, as well as the number of 5 Star reviews in each category. From this the percentage of 5 Star reviews in each category is calculated to help determine if a positivity bias exists for reviews in the Vine Program.
 
 ### Resources
-Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz
-Software: Google Colaboratory, Spark 3.3.1, pgAdmin 4, VScode 1.73.1
+- Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz
+- Software: Google Colaboratory, Spark 3.3.1, pgAdmin 4, VScode 1.73.1
 
 ## Results
 The data is loaded into a Google Colab notebook and used to generate a Dataframe with pyspark. This dataframe is then filtered multiple times to contain only reviews with 20 or more total votes, and at least 50% helpful votes. These reviews are then split into two seperate dataframes, one for those in the Vine Program, and another for Non-Vine program reviews.
