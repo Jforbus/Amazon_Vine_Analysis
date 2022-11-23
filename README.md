@@ -26,15 +26,15 @@ Vine Program Reviews:
 ![Vine_counts](https://github.com/Jforbus/Amazon_Vine_Analysis/blob/main/Resources/Vine_counts.png)
 
 Non-Vine Program Reviews:
-- Total Reviews: 9337
-- 5 Star Reviews: 4496
-- Percentage of total: 48.2%
+- Total Reviews: 8362
+- 5 Star Reviews: 4332
+- Percentage of total: 51.8%
 
 ![Non_vine_counts](https://github.com/Jforbus/Amazon_Vine_Analysis/blob/main/Resources/Non_vine_counts.png)
 
 ## Summary
-The analysis shows that a lower percentage of 5 star reviews exists in the Vine Program by what appears to be a significant amount. 48.2% of the reviews outside the Vine Program are 5 star reviews. Only 32% of reviews in the Vine Program are 5 star reviews. From this data it does not appear that there is a positivity bias for reviews in the Vine Program. 
+The analysis shows that a lower percentage of 5 star reviews exists in the Vine Program by what appears to be a significant amount. 51.8% of the reviews outside the Vine Program are 5 star reviews. Only 32% of reviews in the Vine Program are 5 star reviews. From this data it does not appear that there is a positivity bias for reviews in the Vine Program. 
 
-However, Vine Program reviews account for only 47 reviews in the *Watches* category, compared to 9337 reviews not in the program. The small data set present here for the Vine Program may be hindering the analysis. 
+However, Vine Program reviews account for only 47 reviews in the *Watches* category, compared to 8362 reviews not in the program. The small data set present here for the Vine Program may be hindering the analysis. 
 
 An additional analysis could help give further insight. 4 Star reviews are also considered positive reviews. Conducting a count and calculating the percentage of 4 Star reviews in each category as done for 5 Star reviews would add relevant data and potentially support the prior findings.  
