@@ -2,7 +2,7 @@
 
 ## Project Overview
 Analyzing Amazon review data for products in the *Watches* category to determine if a correlation exists between positive reviews and reviews in the paid Vine program.
-Data is collected from S3 and processed using Spark. The total number of Vine and Non-Vine reviews are counted, as well as the number of 5 Star reviews in each category. From this the percentage of 5 Star reviews in each category is calculated to determine which category has a greater percentage of 5 Star reviews.
+Data is collected from S3 and processed using Spark. The total number of Vine and Non-Vine reviews are counted, as well as the number of 5 Star reviews in each category. From this the percentage of 5 Star reviews in each category is calculated to help determine if a positivity bias exists for reviews in the Vine Program.
 
 ### Resources
 Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Watches_v1_00.tsv.gz
